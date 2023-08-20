@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+
+.book-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.book-card p {
+  margin: 0;
+}
+
+.book-card button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#book-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#add-book-form {
+  display: inline-block;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type=text],
+input[type=number] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type=checkbox] {
+  margin-right: 5px;
+}
+
+button[type=submit] {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #555;
+}
+
+#new-book-button-container {
+  text-align: center;
+}
+
+#new-book-button {
+  margin-top: 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#new-book-button:hover {
+  background-color: #555;
+}/*# sourceMappingURL=style.css.map */
